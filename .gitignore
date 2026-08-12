@@ -1,0 +1,47 @@
+# Credenciales
+*.password
+*.passwd
+*.secret
+*.key
+*.pem
+*.pfx
+
+# Variables de entorno
+.env
+.env.*
+
+# PowerShell
+*.credentials
+*.clixml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+*.txt
+
+# Temporales
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Ansible Vault
+vault-password.txt
